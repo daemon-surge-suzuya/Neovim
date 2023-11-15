@@ -1,0 +1,11 @@
+return {
+
+    {
+      "goolord/alpha-nvim",
+      opts = function(_, opts)
+        opts.section.header.val = require("user/dashboard-images").pikachu
+        }
+        return opts
+      end,
+    },
+  }
