@@ -5,4 +5,5 @@ return {
   { import = "astrocommunity.git/git-blame-nvim" },
   { import = "astrocommunity.utility/noice-nvim" },
   { import = "astrocommunity.colorscheme.nightfox-nvim"},
+  { import = "astrocommunity.colorscheme.kanagawa-nvim"},
 }
