@@ -3,11 +3,11 @@ My Neovim configuration is based on [AstroNvim](https://github.com/AstroNvim/Ast
 
 ## Changes I have made:
 
+- I modified the dashboard.
+  ![Changed Dashboard](./assests/dash.png)
+  
 - I used the rose-pine theme.
   ![Rose Pine Theme](./assests/rosepine.png)
-
-- I changed the dashboard.
-  ![Changed Dashboard](./assests/dash.png)
 
 - I added noice-nvim.
   ![Noice-nvim](./assests/noice.png)
