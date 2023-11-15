@@ -6,4 +6,13 @@ return {
   { import = "astrocommunity.utility/noice-nvim" },
   { import = "astrocommunity.colorscheme.nightfox-nvim"},
   { import = "astrocommunity.colorscheme.kanagawa-nvim"},
+
+  {
+    "noice.nvim",
+    opts = function(_, opts)
+      opts.presets.bottom_search = false
+      opts.lsp.signature = { enabled = false }
+      return opts
+    end,
+  },
 }
